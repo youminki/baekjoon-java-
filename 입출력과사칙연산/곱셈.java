@@ -1,6 +1,6 @@
 // 곱셈 2588번
 // https://www.acmicpc.net/problem/2588
-package 기초;
+package 입출력과사칙연산;
 
 import java.util.Scanner;
 

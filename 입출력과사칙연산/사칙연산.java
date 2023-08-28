@@ -1,6 +1,6 @@
 // 사칙연산.java 10869번
 // https://www.acmicpc.net/problem/10869
-package 기초;
+package 입출력과사칙연산;
 
 import java.util.Scanner;
 

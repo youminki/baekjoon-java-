@@ -1,6 +1,6 @@
 // 1998년생인 내가 태국에서는 2541년생?! 18108번
 // https://www.acmicpc.net/problem/18108
-package 기초;
+package 입출력과사칙연산;
 
 import java.util.Scanner;
 
