@@ -1,0 +1,174 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "A곱하기B",
+            "request": "launch",
+            "mainClass": "입출력과사칙연산.A곱하기B",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "A나누기B",
+            "request": "launch",
+            "mainClass": "입출력과사칙연산.A나누기B",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "A더하기B",
+            "request": "launch",
+            "mainClass": "입출력과사칙연산.A더하기B",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "A마이너스B",
+            "request": "launch",
+            "mainClass": "입출력과사칙연산.A마이너스B",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "개",
+            "request": "launch",
+            "mainClass": "입출력과사칙연산.개",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "고양이",
+            "request": "launch",
+            "mainClass": "입출력과사칙연산.고양이",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "곱셈",
+            "request": "launch",
+            "mainClass": "입출력과사칙연산.곱셈",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "꼬마정민",
+            "request": "launch",
+            "mainClass": "입출력과사칙연산.꼬마정민",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "나머지",
+            "request": "launch",
+            "mainClass": "입출력과사칙연산.나머지",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "물음표물음표느낌표",
+            "request": "launch",
+            "mainClass": "입출력과사칙연산.물음표물음표느낌표",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "사칙연산",
+            "request": "launch",
+            "mainClass": "입출력과사칙연산.사칙연산",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "서기연도찾기",
+            "request": "launch",
+            "mainClass": "입출력과사칙연산.서기연도찾기",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "두수비교하기",
+            "request": "launch",
+            "mainClass": "조건문.두수비교하기",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "사분면고르기",
+            "request": "launch",
+            "mainClass": "조건문.사분면고르기",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "시험성적",
+            "request": "launch",
+            "mainClass": "조건문.시험성적",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "알람시계",
+            "request": "launch",
+            "mainClass": "조건문.알람시계",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "오븐시계",
+            "request": "launch",
+            "mainClass": "조건문.오븐시계",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "윤년",
+            "request": "launch",
+            "mainClass": "조건문.윤년",
+            "projectName": "baekjoon-java-_533b4614"
+        }
+    ]
+}
