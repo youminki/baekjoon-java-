@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "빠른A더하기B",
+            "request": "launch",
+            "mainClass": "반복문.빠른A더하기B",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "코딩은체육과목입니다",
+            "request": "launch",
+            "mainClass": "반복문.코딩은체육과목입니다",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
             "name": "주사위세개",
             "request": "launch",
             "mainClass": "조건문.주사위세개",
