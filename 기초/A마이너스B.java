@@ -1,3 +1,4 @@
+// A마이너스B.java 1001번
 // https://www.acmicpc.net/problem/1001
 package 기초;
 
