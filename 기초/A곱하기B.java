@@ -1,3 +1,5 @@
+// A더하기B.java 10998번
+// https://www.acmicpc.net/problem/10998
 package 기초;
 
 import java.util.Scanner;
