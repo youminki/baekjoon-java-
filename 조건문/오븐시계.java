@@ -12,11 +12,11 @@ public class 오븐시계 {
         int Cook = sc.nextInt();
         A = A + Cook / 60;
         B = B + Cook % 60;
-        if(B > 59){
+        if(B >= 60){
             A = A + 1;
             B = B - 60;
         }
-        if(A > 23){
+        if(A >= 24){
             A = A - 24;
         }
         System.out.printf("%d %d", A, B);

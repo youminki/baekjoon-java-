@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "주사위세개",
+            "request": "launch",
+            "mainClass": "조건문.주사위세개",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
