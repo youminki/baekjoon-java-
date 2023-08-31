@@ -1,30 +1,22 @@
 package 연습;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.util.StringTokenizer;
+import java.util.Scanner;
 
 public class practice {
-    public static void main(String[] args) throws IOException{
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw =  new BufferedWriter(new OutputStreamWriter(System.out));
-        int N = Integer.parseInt(br.readLine());
-        int [] arr = new int[N];
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        for(int i=0; i < arr.length; i++){
-            arr[i] = Integer.parseInt(st.nextToken());
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int X = sc.nextInt();
+        int arr[] = new int[N];
+
+        for(int i=0; i < N; i++){
+            arr[i] = sc.nextInt();
         }
-        int search = Integer.parseInt(br.readLine());
-        int count = 0;
-        for(int i=0; i < arr.length; i++){
-            if(arr[i] == search){
-                count++;
+        sc.close();
+        for(int i=0; i < N; i++){
+            if(arr[i] < X){
+                System.out.print(arr[i] + " ");
             }
         }
-        bw.write(Integer.toString(count));
-        bw.flush();
     }
 }
