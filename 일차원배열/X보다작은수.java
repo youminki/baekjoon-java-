@@ -1,6 +1,6 @@
-// // X 보다작은수.java 10871
-// // https://www.acmicpc.net/problem/10871
-// package 일차원배열;
+// X 보다작은수.java 10871
+// https://www.acmicpc.net/problem/10871
+package 일차원배열;
 import java.util.Scanner;
 
 public class X보다작은수 {
