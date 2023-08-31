@@ -21,7 +21,7 @@ public class 최댓값 {
                 max = N;
                 location = i + 1;
             }
-        }
+        } 
         bw.write(max + "\n" + location);
         bw.flush();
     }
