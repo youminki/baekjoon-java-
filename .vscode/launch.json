@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "공넣기",
+            "request": "launch",
+            "mainClass": "일차원배열.공넣기",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
             "name": "빠른A더하기B",
             "request": "launch",
             "mainClass": "반복문.빠른A더하기B",
