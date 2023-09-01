@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/1546
+// https://www.acmicpc.net/problem/154z6
 // 평균.java 1546
 package 일차원배열;
 
