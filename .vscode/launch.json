@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "상수",
+            "request": "launch",
+            "mainClass": "문자열.상수",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
             "name": "평균",
             "request": "launch",
             "mainClass": "일차원배열.평균",
