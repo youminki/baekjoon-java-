@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "값찾기이진탐색",
+            "request": "launch",
+            "mainClass": "이충기.값찾기이진탐색",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "탐색알고리즘",
+            "request": "launch",
+            "mainClass": "이충기.탐색알고리즘",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "배열에서값찾기",
+            "request": "launch",
+            "mainClass": "이충기.배열에서값찾기",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "함계산",
+            "request": "launch",
+            "mainClass": "이충기.함계산",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
             "name": "사전평가시험3",
             "request": "launch",
             "mainClass": "이충기.사전평가시험3",
