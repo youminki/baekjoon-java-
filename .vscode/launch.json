@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "최댓값찾기",
+            "request": "launch",
+            "mainClass": "이충기.최댓값찾기",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
             "name": "상수",
             "request": "launch",
             "mainClass": "문자열.상수",
