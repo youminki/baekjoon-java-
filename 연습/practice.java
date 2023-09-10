@@ -2,14 +2,51 @@
 // https://www.acmicpc.net/problem/27866
 package 연습;
 
+import java.util.Scanner;
+
 public class practice {
+    public static int[][] map;
+    public static int white;
+    public static int blue;
     public static void main(String[] args){
-        int sum = 0;
-        for(int i=1; i< 10; i++){
-            for(int j=1; j < 10; j++){
-                sum += i * j;
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        map = new int[N][N];
+        for(int i=0; i < N; i++){
+            for(int j=0; j < N; j++){
+                map[i][j] = sc.nextInt();
             }
         }
-        System.out.println(sum);
+        partition(0, 0, N);
+        System.out.println(white);
+        System.out.println(blue);
+    }
+    public static void partition(int row, int col, int size){
+        if(colorCheck(row, col, size)){
+            if(map[row][col] == 0){
+                white++;
+            }
+            else{
+                blue++;
+            }
+            return;
+        }
+        int newSize = size / 2;
+        partition(row, col, newSize);
+        partition(row, col + newSize, newSize);
+        partition(row + newSize, col, newSize);
+        partition(row + newSize, col + newSize, newSize);
+
+    }
+    public static boolean colorCheck(int row, int col, int size){
+        int color = map[row][col];
+        for(int i = row; i < row + size; i++){
+            for(int j = col; j< col + size; j++){
+                if(map[i][j] != color){
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 }
