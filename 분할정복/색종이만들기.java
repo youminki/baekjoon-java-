@@ -2,26 +2,56 @@
 // https://www.acmicpc.net/problem/2630
 package 분할정복;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
+import java.util.Scanner;
 
 public class 색종이만들기 {
-    public static void main(String[] args ) throws IOException{
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        int N = Integer.parseInt(br.readLine());
-        int[][] arr = new int[N][N];
+    public static int[][]map;
+    public static int white = 0;
+    public static int blue = 0;
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        map = new int[N][N];
         for(int i=0; i < N; i++){
-            for(int j=0; j < i; j++){
+            for(int j=0; j < N; j++){
+                map[i][j] = sc.nextInt();
             }
         }
-        bw.write(arr[N][N]);
-        bw.flush();
+        partition(0, 0, N);
+        System.out.println(white);
+        System.out.println(blue);
     }
-}
+        public static void partition(int row, int col, int size){
+            if(colorCheck(row, col, size)){
+                if(map[row][col] == 0){
+                    white++;
+                }
+                else{
+                    blue++;
+                }
+                return;
+            }
+            int newSize = size / 2;
+            partition(row, col, newSize);
+            partition(row, col + newSize, newSize);
+            partition(row + newSize, col, newSize);
+            partition(row + newSize, col + newSize, newSize);
+        }
+
+        public static boolean colorCheck(int row, int col, int size){
+            int color = map[row][col];
+            for(int i=row; i < row + size; i++){
+                for(int j= col; j < col + size; j++){
+                    if(map[i][j] != color){
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
+
+
+    }
 
 //part 1
 // 1 1 0 0 0 0 1 1
