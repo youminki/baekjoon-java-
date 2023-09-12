@@ -1,5 +1,5 @@
-// 문자와문자열.java 27866
-// https://www.acmicpc.net/problem/27866
+// 문자와문자열.java 2630
+// https://www.acmicpc.net/problem/2630
 package 분할정복;
 
 import java.util.Scanner;
@@ -21,6 +21,7 @@ public class 색종이만들기 {
         System.out.println(white);
         System.out.println(blue);
     }
+    
     public static void partition(int row, int col, int size){
         if(colorCheck(row, col, size)){
             if(map[row][col] == 0){
@@ -36,8 +37,8 @@ public class 색종이만들기 {
         partition(row, col + newSize, newSize);
         partition(row + newSize, col, newSize);
         partition(row + newSize, col + newSize, newSize);
-
     }
+
     public static boolean colorCheck(int row, int col, int size){
         int color = map[row][col];
         for(int i = row; i < row + size; i++){
