@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "과제1",
+            "request": "launch",
+            "mainClass": "이충기.과제1",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
             "name": "문제일",
             "request": "launch",
             "mainClass": "이충기.문제일",
