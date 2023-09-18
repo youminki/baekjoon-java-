@@ -20,9 +20,19 @@ public class 박스채우기 {
         }
 
         long use = 0;
-        long result = 0;
+        long count = 0;
         for( int i=N - 1; i >= 0; i--){
-            
+            use <<= 3; //2^3
+            long partition = (long) (length >> i) * (width >> i) * (height >> i) - use; // 박스를 2^i x 2^i x 2^i만큼 분할해 주고, 전에 박스를 채웠던 큐브의 개수(use)만큼 빼 준다.
+            long box = Math.min((long) arr[i], partition);
+            use += box;
+            count += box;
+        }
+        if(use == (long) length * width * height){ //계산 결과와 박스의 부피가 같은지 확인
+            System.out.println(count);
+        }
+        else{
+            System.out.println(-1);
         }
     }
 }
