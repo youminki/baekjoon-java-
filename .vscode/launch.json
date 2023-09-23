@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "과제2",
+            "request": "launch",
+            "mainClass": "이충기.과제2",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "오장십오번",
+            "request": "launch",
+            "mainClass": "이충기.오장십오번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "오장팔번",
+            "request": "launch",
+            "mainClass": "이충기.오장팔번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
             "name": "과제1",
             "request": "launch",
             "mainClass": "이충기.과제1",
