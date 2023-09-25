@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "오장41번",
+            "request": "launch",
+            "mainClass": "이충기.오장41번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "오장24번",
+            "request": "launch",
+            "mainClass": "이충기.오장24번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
             "name": "p",
             "request": "launch",
             "mainClass": "동적프로그래밍.p",
