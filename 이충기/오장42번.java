@@ -1,7 +1,7 @@
 // 선택 알고리즘
 package 이충기;
 //프로글매 : 배열 내에서 k번째로 작은 요소를 찾는다.
-public class 오장41번 {
+public class 오장42번 {
     //배열 S[first .. last]를 S[first]를 기준으로 하여 분할한다.
     // S[first]보다 큰 요소들을 S[first]의 오른쪽에 배치하고 나머지
     // 요소들을 S[first]의 왼족에 배칳나다.@interface
@@ -42,17 +42,16 @@ public class 오장41번 {
         // A[p]보다 작거나 같은 요소들의 수를 계산한다.
         S = (p - 1) - first + 1;
         if(k <= S){
-            // A[p]보다 작거나 같은 요소들의 Small 그룹에서 찾는다.@interface
+            // A[p]보다 작거나 같은 요소들의 Small 그룹에서 찾는다.
             return selection(A, first, p - 1, k);
         }
         else if(k == S + 1){
-            return A[p]; // k번째 작은 요소를 찾았다.@interface
+            return A[p]; // k번째 작은 요소를 찾았다.
         }
         else{ //A[p]보다 큰 요소들을 Large 그룹에서 찾는다.
             return selection(A, p + 1, last, k - S - 1);
         }
     }
-    // 시작 메소드 main
     public static void main(String[] args){
         int A[] = {48, 12, 70, 38, 75, 67, 96, 52, 81};
         int k = 5;

@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "오장19번",
+            "request": "launch",
+            "mainClass": "이충기.오장19번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "이장31번",
+            "request": "launch",
+            "mainClass": "이충기.이장31번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "이장29번",
+            "request": "launch",
+            "mainClass": "이충기.이장29번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "값찾기순차탐색",
+            "request": "launch",
+            "mainClass": "이충기.값찾기순차탐색",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "같은등급학생",
+            "request": "launch",
+            "mainClass": "이충기.같은등급학생",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "이장26번",
+            "request": "launch",
+            "mainClass": "이충기.이장26번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "정수입력정수제곱",
+            "request": "launch",
+            "mainClass": "이충기.정수입력정수제곱",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
             "name": "오장41번",
             "request": "launch",
             "mainClass": "이충기.오장41번",
