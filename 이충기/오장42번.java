@@ -50,8 +50,9 @@ public class 오장42번 {
         }
     }
     public static void main(String[] args){
-        int A[] = {48, 12, 70, 38, 75, 67, 96, 52, 81};
-        int k = 5;
+        int A[] = {18,   49,   27,   90,   67,   56,   38,   84,
+        };
+        int k = 4;
         System.out.println(k + "번째로 작은 요소 " + selection(A, 0, A.length - 1, k) );
     }
 }
