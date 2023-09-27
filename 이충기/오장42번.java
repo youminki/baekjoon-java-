@@ -37,12 +37,9 @@ public class 오장42번 {
     //배열 S[first .. last]내에서 k번째 작은 요소를 찾아서 반환한다.
     public static int selection(int[] A, int first, int last, int k){
         int p, S;
-        // 배열 A[first .. last]를 분할할 지수를 계산한다.
-        p = partition(A, first, last);
-        // A[p]보다 작거나 같은 요소들의 수를 계산한다.
-        S = (p - 1) - first + 1;
-        if(k <= S){
-            // A[p]보다 작거나 같은 요소들의 Small 그룹에서 찾는다.
+        p = partition(A, first, last); // 배열 A[first .. last]를 분할할 지수를 계산한다.
+        S = (p - 1) - first + 1; // A[p]보다 작거나 같은 요소들의 수를 계산한다.
+        if(k <= S){ // A[p]보다 작거나 같은 요소들의 Small 그룹에서 찾는다.
             return selection(A, first, p - 1, k);
         }
         else if(k == S + 1){

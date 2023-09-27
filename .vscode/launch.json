@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "일로만들기",
+            "request": "launch",
+            "mainClass": "동적프로그래밍.일로만들기",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "오장42번",
+            "request": "launch",
+            "mainClass": "이충기.오장42번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
             "name": "오장19번",
             "request": "launch",
             "mainClass": "이충기.오장19번",
