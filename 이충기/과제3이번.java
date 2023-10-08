@@ -1,7 +1,8 @@
-// 선택 알고리즘
 package 이충기;
-//프로글매 : 배열 내에서 k번째로 작은 요소를 찾는다.
-public class 오장42번 {
+
+// 선택 알고리즘
+//중앙 값 찾기
+public class 과제3이번 {
     //배열 S[first .. last]를 S[first]를 기준으로 하여 분할한다.
     // S[first]보다 큰 요소들을 S[first]의 오른쪽에 배치하고 나머지
     // 요소들을 S[first]의 왼족에 배칳나다.@interface
@@ -51,7 +52,7 @@ public class 오장42번 {
     }
     public static void main(String[] args){
         int A[] = {18,   49,   27,   90,   67,   56,   38,   84,};
-        int k = 4;
-        System.out.println(k + "번째로 작은 요소 " + selection(A, 0, A.length - 1, k) );
+        int k = A.length/2;
+        System.out.println("배열의 중앙값 " + selection(A, 0, A.length - 1, k) );
     }
 }

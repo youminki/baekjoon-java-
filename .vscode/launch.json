@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "파보나치함수",
+            "request": "launch",
+            "mainClass": "동적프로그래밍.파보나치함수",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "연습.practice",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "과제4이번",
+            "request": "launch",
+            "mainClass": "이충기.과제4이번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "과제4일번",
+            "request": "launch",
+            "mainClass": "이충기.과제4일번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "과제3이번",
+            "request": "launch",
+            "mainClass": "이충기.과제3이번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "과제3일번",
+            "request": "launch",
+            "mainClass": "이충기.과제3일번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
             "name": "일로만들기",
             "request": "launch",
             "mainClass": "동적프로그래밍.일로만들기",
