@@ -15,7 +15,7 @@ public class 파보나치함수 {
         int t = Integer.parseInt(br.readLine());
         int[] dp = new int[41];
         dp[1] = 1;
-
+=
         for (int i = 2; i < 41; i++) {
             dp[i] = dp[i - 2] + dp[i - 1];
         }
