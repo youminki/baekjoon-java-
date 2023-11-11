@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "기말고사7장오번",
+            "request": "launch",
+            "mainClass": "이충기.기말고사7장오번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "족보",
+            "request": "launch",
+            "mainClass": "이충기.족보",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "과제6이번",
+            "request": "launch",
+            "mainClass": "이충기.과제6이번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
+            "name": "과제6일번",
+            "request": "launch",
+            "mainClass": "이충기.과제6일번",
+            "projectName": "baekjoon-java-_533b4614"
+        },
+        {
+            "type": "java",
             "name": "과제5일번",
             "request": "launch",
             "mainClass": "이충기.과제5일번",
