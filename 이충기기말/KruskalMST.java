@@ -28,9 +28,14 @@ public class KruskalMST {
             edge[i] = new Edge();
         }
 
-        int find(subset subset[], int i){
-            if(subsets[i].parent != i)
+        int find(subset subsets[], int i){
+            if(subsets[i].parent != i){
+                subsets[i].parent = find(subsets, subsets[i], parent);
+            }
+            return subsets[i].parent;
         }
+
+        void()
     }
     public static void main(String[] args){
         int V = 5; // 그래프내 정점의 개수
